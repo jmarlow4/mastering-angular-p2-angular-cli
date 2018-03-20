@@ -1,5 +1,5 @@
 # Part 2 - Angular CLI
-## 0 - Installing and setting up the CLI
+## 0 - Installing and Setting Up the CLI
 
 CLI stands for "command line interface." This is a set of tools that can be accessed through the command line. Instead of a "graphic" user interface, it uses a "textual" user interface. Hence, the Angular-CLI is a set of command line tools that makes building apps much easier.
 
