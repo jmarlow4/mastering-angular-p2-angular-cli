@@ -1,4 +1,29 @@
 # Part 2 - Angular CLI
-## 4 - Further Configurations
+## 4 - Making Changes in Configurations
 
-app Name, change in index.html and e2e test file, scss styling, 
+Let's actually create some changes
+
+* First let's change the app's prefix
+
+    * in line 20 of .angular-cli.json, change it to "ma"
+
+    * if you'd like to apply it to your root component, use the "find all references in project" (vs-code: ctrl/cmd + shift + F) and look for 'app-root.' Ignore any reference in package-lock.json
+
+    * in line 4 of app.component.ts, change the selector to 'ma-root'
+
+    * in line 12 of src/index.html, change the element to ma-root
+
+    * in line 9 of e2e/app.po.ts, change the css selector to ma-root
+
+* Next we're going to change the styling language
+
+    * in line 57 of .angular-cli.json, change css to scss
+
+    * in line 22 of .angular-cli.json, change the filename to styles.scss
+
+    * rename the styles.css file in src to styles.scss
+  
+* You can also just use the right flags upon first creating a project with the correct flags to achieve the same effect
+```
+  $ ng new myProj --style scss --prefix ma
+```
