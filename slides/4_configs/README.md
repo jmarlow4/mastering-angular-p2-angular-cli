@@ -21,7 +21,11 @@ Let's actually create some changes
 
     * in line 22 of .angular-cli.json, change the filename to styles.scss
 
-    * rename the styles.css file in src to styles.scss
+    * rename the src/styles.css file in src to styles.scss
+
+    * rename the src/app/app.component.css file to app.component.scss
+
+    * change the reference to that css file in the src/app/app.component.ts on line 6 to scss
   
 * You can also just use the right flags upon first creating a project with the correct flags to achieve the same effect
 ```
