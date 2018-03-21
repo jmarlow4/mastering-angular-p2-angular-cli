@@ -27,7 +27,7 @@ Let's actually create some changes
 
     * change the reference to that css file in the src/app/app.component.ts on line 6 to scss
   
-* You can also just use the right flags upon first creating a project with the correct flags to achieve the same effect
+* You can also just use the right flags upon first creating a project to achieve the same effect
 ```
   $ ng new myProj --style scss --prefix ma
 ```
