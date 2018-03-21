@@ -31,5 +31,3 @@ Let's actually create some changes
 ```
   $ ng new myProj --style scss --prefix ma
 ```
-
-[View these changes here](https://github.com/jmarlow4/mastering-angular-p2-angular-cli/commit/3647cf6440b68ea4f7442208d0efba3010a69650)
